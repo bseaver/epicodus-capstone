@@ -87,6 +87,14 @@ The idea is that by enabling her to read portions of the list via a variety of e
 * Save zip file to sites/db-backup/ (replacing previous copy if any)
 * Add and Commit this file to the git repository
 
+### Contribs Used
+* Twitter 7.x-6.2 (manually selected)
+* OAuth 7.x-3.4 (manually selected)
+* views 7.x-3.16 (drush en views)
+* ctools 7.x-1.12 (with drush en views)
+* entity 7.x-1.8 (drush en entity)
+* Token 7.x-1.7 (drush en token)
+
 ## Copyright (c)
 * 2017 Benjamin T. Seaver
 
