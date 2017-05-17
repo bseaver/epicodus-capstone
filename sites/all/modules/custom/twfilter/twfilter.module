@@ -63,5 +63,10 @@ function search_tweets_form_submit($form, &$form_state) {
  * Fetch and Render tweets
  */
 function read_tweets() {
-  return $_SESSION[TWFILTER][SEARCH_TERM];
+  $search_term = $_SESSION[TWFILTER][SEARCH_TERM];
+  $output = '<h3>' . $search_term . '<h3>';
+  $pull = twitter_pull_render('@openpublish', t('OpenPublish official'), 3, 'op_homepage_tweets');
+  var_dump($pull);
+  $output .= $pull;
+  return $output;
 }
