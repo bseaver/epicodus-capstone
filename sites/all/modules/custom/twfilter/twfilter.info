@@ -1,0 +1,5 @@
+name = Twitter Filter
+description = Enable Twitter Search and Filtering of Results
+package = Twfilter
+core = 7.x
+files[] = twfilter.module
