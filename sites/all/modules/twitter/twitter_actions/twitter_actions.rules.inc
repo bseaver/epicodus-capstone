@@ -60,12 +60,8 @@ function twitter_actions_set_status($message, $sender) {
     // No Twitter authenticated account found.
     return;
   }
-
   // Send tweet.
-  $twitter_account = entity_load_single('twitter_account', $twitter_uid);
-  if (!empty($twitter_account)) {
-    twitter_actions_tweet($twitter_account, $message);
-  }
+  twitter_actions_post($twitter_uid, $message);
 }
 
 /**
