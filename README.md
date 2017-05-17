@@ -93,7 +93,7 @@ The idea is that by enabling her to read portions of the list via a variety of e
 * views 7.x-3.16
 * ctools 7.x-1.12
 * entity 7.x-1.8
-* Token 7.x-1.8 (removed until needed again)
+* Token 7.x-1.7
 
 ## Copyright (c)
 * 2017 Benjamin T. Seaver
